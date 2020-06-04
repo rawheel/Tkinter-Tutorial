@@ -20,4 +20,5 @@ Radiobutton(window , text = "Red" , variable = pytroop , value = "Red" ).pack()
 
 a = Button(window , text = "select" , command = lambda : print(pytroop.get())).pack()
 
+
 window.mainloop()
